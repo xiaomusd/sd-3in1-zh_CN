@@ -12,3 +12,5 @@ os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://hugging
 os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/tomspy/shojovibe_v11.safetensors/resolve/main/shojovibe_v11.safetensors -d /root/autodl-tmp/stable-diffusion-webui/models/Lora -o shojovibe_v11.safetensors")
 os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/amornlnw7/koreanDollLikeness_v15/resolve/main/koreanDollLikeness_v15.safetensors -d /root/autodl-tmp/stable-diffusion-webui/models/Lora -o koreanDollLikeness_v15.safetensors")
 os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/aimainia/japaneseDollLikeness_v10/resolve/main/japaneseDollLikeness_v10.safetensors -d /root/autodl-tmp/stable-diffusion-webui/models/Lora -o japaneseDollLikeness_v10.safetensors")
+git clone https://github.com/jexom/sd-webui-depth-lib /root/stable-diffusion-webui/extensions/sd-webui-depth-lib
+git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-locon /root/stable-diffusion-webui/extensions/a1111-sd-webui-locon

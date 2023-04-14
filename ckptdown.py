@@ -4,9 +4,8 @@ os.system("git clone https://github.com/jexom/sd-webui-depth-lib /root/stable-di
 os.system("git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-locon /root/stable-diffusion-webui/extensions/a1111-sd-webui-locon")
 os.system("unset http_proxy && unset https_proxy")
 
-os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/perfect_world/resolve/main/perfectWo
-          
-          
+os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/perfect_world/resolve/main/perfectWorld_v2Baked.safetensors -d /root/autodl-tmp/stable-diffusion-webui/models/Stable-diffusion -o perfectWorld_v2Baked.safetensors")
+
 os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/chilloutmix/resolve/main/chilloutmix_NiPrunedFp32Fix.safetensors -d /root/autodl-tmp/stable-diffusion-webui/models/Stable-diffusion -o chilloutmix_NiPrunedFp32Fix.safetensors")
 
 os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/Counterfeit-V2.0/resolve/main/Counterfeit-V2.0fp16.safetensors -d /root/autodl-tmp/stable-diffusion-webui/models/Stable-diffusion -o Counterfeit-V2.0fp16.safetensors")

@@ -1,8 +1,8 @@
 import os
 
-#os.system("git clone https://github.com/jexom/sd-webui-depth-lib /root/stable-diffusion-webui/extensions/sd-webui-depth-lib")
-#os.system("git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-locon /root/stable-diffusion-webui/extensions/a1111-sd-webui-locon")
-#os.system("unset http_proxy && unset https_proxy")
+os.system("git clone https://github.com/jexom/sd-webui-depth-lib /root/stable-diffusion-webui/extensions/sd-webui-depth-lib")
+os.system("git clone https://github.com/KohakuBlueleaf/a1111-sd-webui-locon /root/stable-diffusion-webui/extensions/a1111-sd-webui-locon")
+os.system("unset http_proxy && unset https_proxy")
 
 os.system("aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/ckpt/perfect_world/resolve/main/perfectWo
           
